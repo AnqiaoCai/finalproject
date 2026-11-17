@@ -14,7 +14,7 @@ Suggests: knitr, testthat, rmarkdown, pkgdown
 License: Artistic-2.0
 VignetteBuilder: quarto
 Encoding: UTF-8
-URL: https://github.com/AnqiaoCai/finalproject.git
+URL: https://github.com/AnqiaoCai/finalproject
 BugReports: https://github.com/AnqiaoCai/finalproject/issues
 Config/roxygen2/version: 8.1.1
 Roxygen: list(markdown=TRUE)
