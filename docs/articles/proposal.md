@@ -23,6 +23,21 @@ and screen for underweight, overweight, and obesity.
 original numerical values. Participants with missing BMI will be
 excluded.
 
+AI Disclosure: Model: GPT-6
+
+Prompt: What is the function of BMI?
+
+What I learned: BMI is used to assess weight status and screen for
+underweight, overweight, and obesity.
+
+AI Disclosure: Model: GPT-6
+
+Prompt: When I code a continuous variable, can I keep its original
+numerical value instead of doing any changes or transformation?
+
+What I learned: I can keep using the original numercial value of the
+continuous variable.
+
 ### 4. Outcome Variable
 
 **Definition:** Diabetes: Study participant told by a doctor or health
@@ -45,11 +60,29 @@ healthier food , which may influence both BMI and diabetes risk.
 **Gender:** Gender may be associated with both BMI and diabetes due to
 difference of hormone
 
+AI Disclosure: Model: GPT-6
+
+Prompt: Can gender affect BMI and hormone?
+
+What I learned: Gender can affect both BMI and diabetes due to
+difference of hormone
+
 ## Project 2 (Data: CDC data on waterborne illnesses)
+
+AI Disclosure: Model: GPT-6
+
+Prompt: For the waterborne dataset, I am thinking about two options. One
+is discovering relationship between water exposure and illness. The
+other one is discovering relationship between water type and illness. I
+want to choose option one but I am not sure if option two is better.
+
+What I learned: Option 1 is better because it covers a broader range of
+water exposure categories and allows us to compare the number of
+illnesses across different exposure types.
 
 ### 1. Research Question
 
-How is water exposure associated with the number of illness?
+How is water exposure type associated with the number of illness?
 
 ### 2. Unit of Analysis and population
 
@@ -63,8 +96,8 @@ How is water exposure associated with the number of illness?
 water, Other/environmental water and undetermined water
 
 **How to code it:** It is a categorical variable so I will use its
-original categorical values. Event with missing water exposure type will
-be excluded.
+original categorical values and treat it as a factor. Event with missing
+water exposure type will be excluded.
 
 ### 4. Outcome Variable
 
@@ -85,3 +118,12 @@ exposure type and number of illnesses
 **Time(Month):** In different months, the environmental factors, such as
 weather, and human factors, such as daily activities, will be changes,
 which may affect the water exposure type and number of illnesses
+
+AI Disclosure: Model: GPT-6
+
+Prompt: I am not sure if time can affect water exposure type and number
+of illnesses
+
+What I learned: Time or seasonal changes affects the environmental
+factors and human factors, and these are related to water exposure type
+and number of illnesses

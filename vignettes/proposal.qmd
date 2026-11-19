@@ -87,7 +87,7 @@ How is water exposure type associated with the number of illness?
 
 **Definition:** water_exposure: Types of water, including drinking water, Other/environmental water and undetermined water
 
-**How to code it:** It is a categorical variable so I will use its original categorical values. Event with missing water exposure type will be excluded.
+**How to code it:** It is a categorical variable so I will use its original categorical values and treat it as a factor. Event with missing water exposure type will be excluded.
 
 ## 4. Outcome Variable
 

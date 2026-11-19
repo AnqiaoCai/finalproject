@@ -82,6 +82,12 @@
 </h3>
 <p><strong>Definition:</strong> BMI: Body mass index (weight/height2 in kg/m2). It is a measure of weight relative to height. It is used to assess weight status and screen for underweight, overweight, and obesity.</p>
 <p><strong>How to code it:</strong> It is a continuous variable so I will use its original numerical values. Participants with missing BMI will be excluded.</p>
+<p>AI Disclosure: Model: GPT-6</p>
+<p>Prompt: What is the function of BMI?</p>
+<p>What I learned: BMI is used to assess weight status and screen for underweight, overweight, and obesity.</p>
+<p>AI Disclosure: Model: GPT-6</p>
+<p>Prompt: When I code a continuous variable, can I keep its original numerical value instead of doing any changes or transformation?</p>
+<p>What I learned: I can keep using the original numercial value of the continuous variable.</p>
 </section><section class="level2"><h3 id="outcome-variable">4. Outcome Variable<a class="anchor" aria-label="anchor" href="#outcome-variable"></a>
 </h3>
 <p><strong>Definition:</strong> Diabetes: Study participant told by a doctor or health professional that they have diabetes, indicating whether the participant has diabetes or not</p>
@@ -92,11 +98,17 @@
 <p><strong>Age:</strong> Age can affect the risk of diabetes and BMI due to age-related change of metabolism</p>
 <p><strong>Income:</strong> Higher income may provide better access to healthcare and healthier food , which may influence both BMI and diabetes risk.</p>
 <p><strong>Gender:</strong> Gender may be associated with both BMI and diabetes due to difference of hormone</p>
+<p>AI Disclosure: Model: GPT-6</p>
+<p>Prompt: Can gender affect BMI and hormone?</p>
+<p>What I learned: Gender can affect both BMI and diabetes due to difference of hormone</p>
 </section></section><section class="section level2"><h2 id="project-2-data-cdc-data-on-waterborne-illnesses">Project 2 (Data: CDC data on waterborne illnesses)<a class="anchor" aria-label="anchor" href="#project-2-data-cdc-data-on-waterborne-illnesses"></a>
 </h2>
+<p>AI Disclosure: Model: GPT-6</p>
+<p>Prompt: For the waterborne dataset, I am thinking about two options. One is discovering relationship between water exposure and illness. The other one is discovering relationship between water type and illness. I want to choose option one but I am not sure if option two is better.</p>
+<p>What I learned: Option 1 is better because it covers a broader range of water exposure categories and allows us to compare the number of illnesses across different exposure types.</p>
 <section class="level2"><h3 id="research-question-1">1. Research Question<a class="anchor" aria-label="anchor" href="#research-question-1"></a>
 </h3>
-<p>How is water exposure associated with the number of illness?</p>
+<p>How is water exposure type associated with the number of illness?</p>
 </section><section class="level2"><h3 id="unit-of-analysis-and-population-1">2. Unit of Analysis and population<a class="anchor" aria-label="anchor" href="#unit-of-analysis-and-population-1"></a>
 </h3>
 <p><strong>Unit of Analysis:</strong> Individual waterborne disease event</p>
@@ -104,7 +116,7 @@
 </section><section class="level2"><h3 id="exposure-variable-1">3. Exposure Variable<a class="anchor" aria-label="anchor" href="#exposure-variable-1"></a>
 </h3>
 <p><strong>Definition:</strong> water_exposure: Types of water, including drinking water, Other/environmental water and undetermined water</p>
-<p><strong>How to code it:</strong> It is a categorical variable so I will use its original categorical values. Event with missing water exposure type will be excluded.</p>
+<p><strong>How to code it:</strong> It is a categorical variable so I will use its original categorical values and treat it as a factor. Event with missing water exposure type will be excluded.</p>
 </section><section class="level2"><h3 id="outcome-variable-1">4. Outcome Variable<a class="anchor" aria-label="anchor" href="#outcome-variable-1"></a>
 </h3>
 <p><strong>Definition:</strong> illnesses: introducing the number of illnesses of the disease event</p>
@@ -114,6 +126,9 @@
 </h3>
 <p><strong>Geography(State):</strong> Different areas may have different water condition and the overall environmental conditions, which may affect the water exposure type and number of illnesses</p>
 <p><strong>Time(Month):</strong> In different months, the environmental factors, such as weather, and human factors, such as daily activities, will be changes, which may affect the water exposure type and number of illnesses</p>
+<p>AI Disclosure: Model: GPT-6</p>
+<p>Prompt: I am not sure if time can affect water exposure type and number of illnesses</p>
+<p>What I learned: Time or seasonal changes affects the environmental factors and human factors, and these are related to water exposure type and number of illnesses</p>
 </section></section><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
