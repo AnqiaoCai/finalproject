@@ -1,0 +1,74 @@
+---
+title: "proposal"
+author: "Erica Cai"
+format: html
+editor: visual
+---
+
+# Project 1 (Data: NHANES data from the NHANES package)
+
+## 1. Research Question
+
+Is BMI associated with diabetes status among adults aged 40 and older?
+
+## 2. Unit of Analysis and population
+
+**Unit of Analysis:** Individual within the US National Center for Health Statistics survey
+
+**Population:** Adults aged 40 and older in the US
+
+## 3. Exposure Variable
+
+**Definition:** BMI: Body mass index (weight/height2 in kg/m2). It is a measure of weight relative to height. It is used to assess weight status and screen for underweight, overweight, and obesity.
+
+**How to code it:** It is a continuous variable so I will use its original numerical values. Participants with missing BMI will be excluded.
+
+## 4. Outcome Variable
+
+**Definition:** Diabetes: Study participant told by a doctor or health professional that they have diabetes, indicating whether the participant has diabetes or not
+
+**Variable Type:** Binary categorical variable
+
+**How to code it:** Yes = 1 (diagnosed diabetes), No = 0 (not diagnosed diabetes). Participants with missing Diabetes will be excluded.
+
+## 5. Confounders
+
+**Age:** Age can affect the risk of diabetes and BMI due to age-related change of metabolism
+
+**Income:** Higher income may provide better access to healthcare and healthier food , which may influence both BMI and diabetes risk.
+
+**Gender:** Gender may be associated with both BMI and diabetes due to difference of hormone
+
+# Project 2 (Data: CDC data on waterborne illnesses)
+
+## 1. Research Question
+
+How is water exposure associated with the number of illness?
+
+## 2. Unit of Analysis and population
+
+**Unit of Analysis:** Individual waterborne disease event
+
+**Population:** Waterbrone disease events in the US
+
+## 3. Exposure Variable
+
+**Definition:** water_exposure: Types of water, including drinking water, Other/environmental water and undetermined water
+
+**How to code it:** It is a categorical variable so I will use its original categorical values. Event with missing water exposure type will be excluded.
+
+## 4. Outcome Variable
+
+**Definition:** illnesses: introducing the number of illnesses of the disease event
+
+**Variable Type:** Discrete numerical variable
+
+**How to code it:** I will use its original numerical values. Events with missing illnesses value will be excluded.
+
+## 5. Confounders
+
+**Geography(State):** Different areas may have different water condition and the overall environmental conditions, which may affect the water exposure type and number of illnesses
+
+**Time(Month):** In different months, the environmental factors, such as weather, and human factors, such as daily activities, will be changes, which may affect the water exposure type and number of illnesses
+
+
